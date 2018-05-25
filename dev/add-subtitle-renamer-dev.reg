@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\rename_subs]
+@="Rename Subtitles"
+"NoWorkingDirectory"=""
+"Icon"="C:\\Users\\mn3m\\Desktop\\Subtitle-Renamer\\assets\\subtitle_renamer_icon_modern.ico"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\rename_subs\command]
+@="\"C:\\Program Files\\Python27\\pythonw.exe\" \"C:\\Users\\mn3m\\Desktop\\Subtitle-Renamer\\src\\rename_subtitles.py\" \"%V\""
